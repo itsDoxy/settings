@@ -1,108 +1,82 @@
 {
-    "emmet.syntaxProfiles" : {
-      "javascript" : "jsx"
-    },
     "workbench.startupEditor" : "newUntitledFile",
     "workbench.colorTheme" : "Ayu Mirage",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily" : "JetBrains Mono",
+    "workbench.iconTheme": "symbols",
+    "workbench.productIconTheme" : "fluent-icons",
     "editor.fontSize" : 18,
     "editor.lineHeight" : 28,
     "terminal.integrated.fontSize" : 16,
     "editor.fontLigatures" : true,
-    "javascript.suggest.autoImports" : true,
-    "gitlens.codeLens.authors.enabled" : false,
+    "extensions.ignoreRecommendations": true,
     "editor.tabSize" : 2,
     "javascript.updateImportsOnFileMove.enabled" : "always",
-    "editor.rulers" : [
-      80,
-      120
-    ],
-    // "tabnine.experimentalAutoImports" : true,
-    // "gitlens.codeLens.enabled": false,
+    "editor.rulers" : [80, 120],
     "editor.minimap.enabled": false,
     "window.zoomLevel": -1,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "extensions.ignoreRecommendations": true,
-  
-    "editor.parameterHints.enabled" : false,
     "editor.renderLineHighlight" : "gutter",
-    "cSpell.language" : "en,pt",
-    "material-icon-theme.languages.associations" : {
-      "dotenv" : "tune"
-    },
-    "typescript.updateImportsOnFileMove.enabled" : "never",
-  
-    "material-icon-theme.files.associations" : {
-      "tsconfig.json" : "tune",
-      "*.webpack.js" : "webpack",
-      "*.proto" : "3d",
-      "ormconfig.json" : "database"
-    },
-    "material-icon-theme.activeIconPack" : "nest",
-    "editor.suggestSelection" : "first",
-    "explorer.confirmDelete" : false,
-    "gitlens.codeLens.recentChange.enabled" : false,
-    "terminal.integrated.showExitAlert" : false,
+    "breadcrumbs.enabled" : false,
+    "editor.parameterHints.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "cSpell.language": "en,pt",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.showExitAlert": false,
+    "workbench.editor.labelFormat": "short",
+    "update.mode": "start",
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "editor.semanticHighlighting.enabled": false,
     
-    // "[prisma]" : {
-    //   "editor.formatOnSave" : true
-    // },
-      
-    "workbench.editor.labelFormat" : "short",
-    "emmet.includeLanguages" : {
-      "javascript" : "javascriptreact"
+    "editor.hideCursorInOverviewRuler": true,
+    "window.titleBarStyle": "native",
+    
+    "console-ninja.featureSet": "Community",
+    "workbench.editor.empty.hint": "hidden",
+    "update.showReleaseNotes": true,
+    "security.promptForLocalFileProtocolHandling": false,
+    //Activity Bar where shows some options related to extentions and files
+    "workbench.activityBar.location": "side",
+    "apc.activityBar": {
+      "position": "bottom",
+      "hideSettings": true,
+      "size": 48,
+      "itemMargin": 8,
+      "itemSize": 32
     },
+    "apc.electron": {
+      "titleBarStyle": "hiddenInset",
+      "trafficLightPosition": {
+        "x": 11,
+        "y": 10
+      },
+      "frame": false
+    },
+    "apc.header": {
+      "height": 36
+    },
+    "apc.listRow": {
+      "height": 24
+    },
+    "apc.font.family": "Inter",
+    "apc.stylesheet": {
+      ".title-label > h2": "display: none",
+      ".editor-actions": "display: none",
+      ".nosidebar .inline-tabs-placeholder": "width: 75px",
+      ".pane-header": "padding: 0 8px",
+      ".pane-body": "padding: 8px",
+    },
+
+  "explorer.sortOrder": "foldersNestsFiles",
     // "liveshare.featureSet" : "insiders",
-    "material-icon-theme.folders.associations" : {
-      "adapters" : "contract",
-      "grpc" : "pipe",
-      "kube" : "kubernetes",
-      "main" : "lib",
-      "websockets" : "pipe",
-      "implementations" : "core",
-      "protos" : "pipe",
-      "entities" : "class",
-      "kafka" : "pipe",
-      "use-cases" : "functions",
-      "migrations" : "tools",
-      "schemas" : "class",
-      "useCases" : "functions",
-      "eslint-config" : "tools",
-      "typeorm" : "database",
-      "_shared" : "shared",
-      "mappers" : "meta",
-      "fakes" : "mock",
-      "modules" : "components",
-      "subscribers" : "messages",
-      "domain" : "class",
-      "protocols" : "contract",
-      "infra" : "app",
-      "view-models" : "views",
-      "presentation" : "template",
-      "dtos" : "typescript",
-      "http" : "container",
-      "providers" : "include",
-      "factories" : "class",
-      "repositories" : "mappings"
-    },
-    
     "editor.acceptSuggestionOnCommitCharacter" : false,
     "explorer.compactFolders" : false,
     "git.enableSmartCommit" : true,
     "editor.accessibilitySupport" : "off",
     "explorer.confirmDragAndDrop" : false,
-    
-    // "editor.codeActionsOnSave" : {
-    //   "source.fixAll.eslint" : true, 
-    //   // "source.organizeImports": true
-    // },
-    
-    "editor.semanticHighlighting.enabled" : false,
-    "breadcrumbs.enabled" : true,
-    "workbench.productIconTheme" : "fluent-icons",
-  
-  
+
     "security.workspace.trust.untrustedFiles" : "newWindow",
     "files.exclude" : {
       "**\/CVS" : true,
@@ -111,4 +85,7 @@
       "**\/.svn" : true,
       "**\/.git" : true
     },
+    "remote.SSH.configFile": "C:\\Users\\Pedro\\.ssh\\config",
+    "symbols.hidesExplorerArrows": false,
+    
   }
