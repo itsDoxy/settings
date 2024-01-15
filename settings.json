@@ -1,6 +1,7 @@
 {
     "workbench.startupEditor" : "newUntitledFile",
-    "workbench.colorTheme" : "Ayu Mirage",
+    "workbench.colorTheme" : "Min Dark",
+    "workbench.statusBar.visible": false,
     "editor.fontFamily" : "JetBrains Mono",
     "workbench.iconTheme": "symbols",
     "workbench.productIconTheme" : "fluent-icons",
@@ -19,7 +20,6 @@
     "editor.parameterHints.enabled": false,
     "editor.scrollbar.vertical": "hidden",
     "editor.scrollbar.horizontal": "hidden",
-    "cSpell.language": "en,pt",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
@@ -29,10 +29,10 @@
     "terminal.integrated.gpuAcceleration": "off",
     "terminal.integrated.defaultProfile.osx": "fish",
     "editor.semanticHighlighting.enabled": false,
-    
-    "editor.hideCursorInOverviewRuler": true,
-    "window.titleBarStyle": "native",
-    
+    "terminal.integrated.env.windows": {},
+
+    "window.menuBarVisibility": "toggle",
+
     "console-ninja.featureSet": "Community",
     "workbench.editor.empty.hint": "hidden",
     "update.showReleaseNotes": true,
@@ -46,6 +46,8 @@
       "itemMargin": 8,
       "itemSize": 32
     },
+    "editor.hideCursorInOverviewRuler": true,
+    "window.titleBarStyle": "native",
     "apc.electron": {
       "titleBarStyle": "hiddenInset",
       "trafficLightPosition": {
@@ -67,6 +69,9 @@
       ".nosidebar .inline-tabs-placeholder": "width: 75px",
       ".pane-header": "padding: 0 8px",
       ".pane-body": "padding: 8px",
+      ".split-view-view:first-child .pane-header": "display: none !important;",
+      ".monaco-list-row": "border-radius: 4px;",
+      ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
     },
 
   "explorer.sortOrder": "foldersNestsFiles",
